@@ -112,6 +112,7 @@ function addToCartUpdated(id) {
 	document.getElementById("shopping-cart").innerHTML = currentShoppingCart + newAddedMovie;
 }
 
+//test
 
 function removeItem (itemID) {
 	document.getElementById(itemID).remove();
